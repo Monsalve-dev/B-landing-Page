@@ -123,7 +123,8 @@ label #btn-m, label #cancel{
 
 .hero-section{
     height: 90vh;
-    background: url(/Job/Porpuestas/One/img/pexels-cadeau-maestro-1170412.webp);
+    background: url(    background: url(pexels-cadeau-maestro-1170412.webp);
+);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
