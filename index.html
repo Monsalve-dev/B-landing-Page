@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/package-regular-24.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Propuesta Landing Page</title>
+</head>
+
+<body>
+    <header class="header-landing">
+        <div class="wrap-logo">
+            <img src="img/package-regular-120.png" alt="" class="logo-header">
+            
+        </div>
+        <a href="#" class="logo">Landing Page</a>
+
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn-m"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="hero-section">
+        <div class="wrap-hero-section">
+            <h1>Landing Page MigDevCode</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi unde optio eius voluptas repellat
+                quibusdam pariatur aliquid facilis? Sapiente optio soluta facere. Vero, veritatis ex.
+            </p>
+            <div class="wrap-cta">
+                <a href="/" class="cta-a">LLamada a la accion</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section logos-secctions">
+        <div class="wrap-logos-section">
+            <img src="img/disenador-grafico.png" alt="" class="logo-brand">
+            <img src="img/marketing.png" alt="" class="logo-brand">
+            <img src="img/medios-de-comunicacion-social.png" alt="" class="logo-brand">
+        </div>
+    </section>
+
+    <section class="section servicios-section">
+        <div class="wrap-title-section">
+            <h2>Categotias de Servicios</h2>
+        </div>
+
+        <div class="wrap-servicios-section">
+            <a href="" class="item-servicios-section">
+                <img src="img/Como-hacer-una-buena-entrevista-de-trabajo-para-marketing.jpg" alt="">
+                <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item-servicios-section">
+                <img src="img/como-ser-creador-de-contenido.jpg" alt="">
+                <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item-servicios-section">
+                <img src="img/istockphoto-1415537875-612x612.jpg" alt="">
+                <p>Item Categoria</p>
+                </img>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="section two-column-section">
+        <div class="wrap-title-section">
+            <h2>Caracteristicas de nuestros servicios</h2>
+        </div>
+        <div class="wrap-two-column">
+            <div class="wrap-img_two-column">
+                <img src="img/trabajo-disenador.jpg" alt="">
+            </div>
+
+            <div class="wrap-img_two-column">
+                <div class="wrap-text-column">
+                    <h3>Mas Caracteristicas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae cupiditate quibusdam
+                        ut distinctio perspiciatis ipsa totam, fugit vero quo. Aspernatur ad ipsum nobis veniam atque
+                        error, ipsam totam! Consequuntur et totam saepe animi asperiores!
+                    </p>
+                    <div class="wrap-cta">
+                        <a href="/" class="cta-a">LLamada a la accion</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section two-column-section form">
+
+        <div class="wrap-title-section wrap-title-section2">
+            <h2>Formulario de Contacto</h2>
+        </div>
+
+        <div class="wrap-two-column">
+
+            <div class="wrap-img_two-column">
+                <div class="wrap-text-column wrap-title-section2">
+                    <h3>Contacta con nosotros</h3>
+
+                    <form action="procesar_formulario.php" method="post" class="form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required="">
+                        <br><br>
+
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" name="asunto" id="asunto" required="">
+                        <br><br>
+
+                        <label for="mesaje">Mensaje:</label>
+                        <br>
+                        <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+                        <br><br>
+
+                        <input type="submit" value="Enviar" class="cta-a">
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="wrap-img_two-column">
+                <img src="img/trabajo-disenador.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="wrap-footer-section">
+            <div class="wrap-social-logos">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div class="menu-footer-section">
+                <div class="wrap-menu-footer-section">
+                    <ul>
+
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Quienes somos</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contacto</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="menu-footer-section">
+            <div class="footer-creds">
+                <p>@copytight 2025 - Doad Media - Todos los derechos reservados</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
