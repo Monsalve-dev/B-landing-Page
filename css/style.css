@@ -8,6 +8,10 @@
     --text-color: #fff;
     --main-color: #f2640c;
 }
+html::-webkit-scrollbar{
+    width: 0.8em;
+    display: none;
+}
 
 /* Estilos Generales*/
 
